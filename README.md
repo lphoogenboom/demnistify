@@ -1,3 +1,4 @@
-# Demnistify <span style="font-size: 12px;">*(The "n" is silent)*</span>
+# Demnistify
+***<p align="center">(The "n" is silent)</p>***
 
-
+## Interpretable Post-Hoc Machine Learning on the MNIST DATA set.
