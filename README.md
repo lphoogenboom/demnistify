@@ -8,6 +8,6 @@ This project aims provide a set of interpretability methods for deep neural nets
 #### MNIST DATA
 The MNIST data set is a collection of hand-drawn numbers ranging 0 to 9. Each image is black-and-white and has the number centered. The file size is very small, yet extensive enough to do good training. This means that training algorithms execute quickly and there is enough dept in the data to differentiate between well trained models and poorly trained models.
 
-![Example of MNIST images](https://www.researchgate.net/publication/359449733/figure/fig2/AS:11431281087562446@1664675721372/Example-Images-of-the-MNIST-Handwritten-Digit-Classification-dataset.png)
+![Example of MNIST images](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.researchgate.net%2Fpublication%2F359449733%2Ffigure%2Ffig2%2FAS%3A11431281087562446%401664675721372%2FExample-Images-of-the-MNIST-Handwritten-Digit-Classification-dataset.png&f=1&nofb=1&ipt=acd19b0464996a0fddfc4fcc9a42cbbeaea4839e2e7dfa0b5bf809ae93452763&ipo=images)
 
-<img src="https://www.researchgate.net/publication/359449733/figure/fig2/AS:11431281087562446@1664675721372/Example-Images-of-the-MNIST-Handwritten-Digit-Classification-dataset.png">
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.researchgate.net%2Fpublication%2F359449733%2Ffigure%2Ffig2%2FAS%3A11431281087562446%401664675721372%2FExample-Images-of-the-MNIST-Handwritten-Digit-Classification-dataset.png&f=1&nofb=1&ipt=acd19b0464996a0fddfc4fcc9a42cbbeaea4839e2e7dfa0b5bf809ae93452763&ipo=images">
