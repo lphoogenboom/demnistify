@@ -16,3 +16,9 @@ dependencies:
   - torchvision
   - torchaudio
   - pytorch-cuda=11.8 # If you own a CUDA enabled device
+
+  # Visualisation Dependencies
+  - ipykernel
+  - matplotlib
+  - libpng
+  - jpeg
