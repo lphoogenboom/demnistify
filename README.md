@@ -30,7 +30,7 @@ MNIST and EMNIST](https://www.mdpi.com/2076-3417/9/15/3169?type=check_update)*
 |Inception-Recurrent CNN + LSUV + EVE                           |0.29%|
 |Recurrent CNN                                                  |0.31%|
 |CNN with norm. layers and piecewise linear activation units    |0.31%|
-|CNN (5 conv, 3 dense) with full training                       |0.32%|
+|[CNN (5 conv, 3 dense) with full training](https://ieeexplore.ieee.org/abstract/document/7280683)                       |0.32%|
 |MetaQNN (ensemble)                                             |0.32%|
 |Fractional max-pooling CNN with random overlapping             |0.32%|
 |CNN with competitive multi-scale conv. filters                 |0.33%|
