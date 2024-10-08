@@ -10,6 +10,7 @@ dependencies:
 
   # Data Dependencies
   - pandas
+  - numpy
 
   # Learning Dependencies
   - pytorch
