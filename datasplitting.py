@@ -15,6 +15,7 @@ if __name__ == "__main__":
 	images = np.load(path_images)
 	labels = np.load(path_labels)
 
+	# Create index lists for splitting data
 	split = dict()
 	idx_train, idx_test, _, _ = train_test_split(
         range(len(labels)),
@@ -22,14 +23,18 @@ if __name__ == "__main__":
         test_size=0.2,
         stratify=labels,
     )
+
+	# Indices in images & labels of training and test data
 	split["train"] = idx_train
 	split["test"] = idx_test
 
+	# Use indexes with training data to create 5-fold split of training data into 5 new train+val sets (new sets overlap in data)
 	skf_train_val = StratifiedKFold(n_splits=5, shuffle=True)
 	for i, (idx_train, idx_va) in enumerate(skf_train_val.split(split["train"], labels[split["train"]])):
 		split[f"train_{i:02d}"] = idx_train
 		split[f"val_{i:02d}"] = idx_va
 
+	# save test data, train data and 5 splits of the train data (train_## + val_##)
 	np.savez(path_split/"datasplit.npz", **split)
 
 	"""Print datasplit information"""
