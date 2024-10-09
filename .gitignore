@@ -1,4 +1,2 @@
-# I have to pay for LFS, so no raw data in remote...
-data/raw/*.csv
-
-data/processed/*.npy
+/data/raw/*.csv
+/data/raw/*.*
