@@ -11,4 +11,4 @@ class Criterion(nn.Module):
         loss = ff.l1_loss(prediction, reference)
         return loss
 
-	# Define more criteria for different networks later
+	# Define more objectives for different networks later
